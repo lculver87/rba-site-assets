@@ -1,0 +1,19 @@
+/* Change default font to to neue-haas-grotesk-display, 500 weight;*/
+body {
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.04rem;
+}
+
+/* Headings h1, h2 and h3 will all use  adobe-caslon-pro,  */
+h1, h2, h3 {
+    font-family: 'adobe-caslon-pro', serif;
+    font-style: normal;
+}
+
+/* Headings h4, h5 and h6 will all use the default  */
+h4, h5, h6 {
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-style: normal;
+}
+

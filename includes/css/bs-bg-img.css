@@ -1,0 +1,340 @@
+/* Backgrounds and placement */
+.bg-img-cover {
+    background-size: cover;
+}
+
+.bg-img-contain {
+    background-size: contain;
+}
+
+.bg-img-top-left {
+    background-position: top left;
+}
+
+.bg-img-top-center {
+    background-position: top center;
+}
+
+.bg-img-top-right {
+    background-position: top right;
+}
+
+.bg-img-center-left {
+    background-position: center left;
+}
+
+.bg-img-center-center {
+    background-position: center center;
+}
+
+.bg-img-center-right {
+    background-position: center right;
+}
+
+.bg-img-bottom-left {
+    background-position: bottom left;
+}
+
+.bg-img-bottom-center {
+    background-position: bottom center;
+}
+
+.bg-img-bottom-right {
+    background-position: bottom right;
+}
+
+.bg-img-repeat {
+    background-repeat: repeat;
+}
+
+.bg-img-no-repeat {
+    background-repeat: no-repeat;
+}
+
+/* Responsive Backgrounds */
+@media (min-width: 576px) {
+    .bg-sm-img-cover {
+        background-size: cover;
+    }
+
+    .bg-sm-img-contain {
+        background-size: contain;
+    }
+
+    .bg-sm-img-top-left {
+        background-position: top left;
+    }
+
+    .bg-sm-img-top-center {
+        background-position: top center;
+    }
+
+    .bg-sm-img-top-right {
+        background-position: top right;
+    }
+
+    .bg-sm-img-center-left {
+        background-position: center left;
+    }
+
+    .bg-sm-img-center-center {
+        background-position: center center;
+    }
+
+    .bg-sm-img-center-right {
+        background-position: center right;
+    }
+
+    .bg-sm-img-bottom-left {
+        background-position: bottom left;
+    }
+
+    .bg-sm-img-bottom-center {
+        background-position: bottom center;
+    }
+
+    .bg-sm-img-bottom-right {
+        background-position: bottom right;
+    }
+
+    .bg-sm-img-repeat {
+        background-repeat: repeat;
+    }
+
+    .bg-sm-img-no-repeat {
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-md-img-cover {
+        background-size: cover;
+    }
+
+    .bg-md-img-contain {
+        background-size: contain;
+    }
+
+    .bg-md-img-top-left {
+        background-position: top left;
+    }
+
+    .bg-md-img-top-center {
+        background-position: top center;
+    }
+
+    .bg-md-img-top-right {
+        background-position: top right;
+    }
+
+    .bg-md-img-center-left {
+        background-position: center left;
+    }
+
+    .bg-md-img-center-center {
+        background-position: center center;
+    }
+
+    .bg-md-img-center-right {
+        background-position: center right;
+    }
+
+    .bg-md-img-bottom-left {
+        background-position: bottom left;
+    }
+
+    .bg-md-img-bottom-center {
+        background-position: bottom center;
+    }
+
+    .bg-md-img-bottom-right {
+        background-position: bottom right;
+    }
+
+    .bg-md-img-repeat {
+        background-repeat: repeat;
+    }
+
+    .bg-md-img-no-repeat {
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-lg-img-cover {
+        background-size: cover;
+    }
+
+    .bg-lg-img-contain {
+        background-size: contain;
+    }
+
+    .bg-lg-img-top-left {
+        background-position: top left;
+    }
+
+    .bg-lg-img-top-center {
+        background-position: top center;
+    }
+
+    .bg-lg-img-top-right {
+        background-position: top right;
+    }
+
+    .bg-lg-img-center-left {
+        background-position: center left;
+    }
+
+    .bg-lg-img-center-center {
+        background-position: center center;
+    }
+
+    .bg-lg-img-center-right {
+        background-position: center right;
+    }
+
+    .bg-lg-img-bottom-left {
+        background-position: bottom left;
+    }
+
+    .bg-lg-img-bottom-center {
+        background-position: bottom center;
+    }
+
+    .bg-lg-img-bottom-right {
+        background-position: bottom right;
+    }
+
+    .bg-lg-img-repeat {
+        background-repeat: repeat;
+    }
+
+    .bg-lg-img-no-repeat {
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .bg-xl-img-cover {
+        background-size: cover;
+    }
+
+    .bg-xl-img-contain {
+        background-size: contain;
+    }
+
+    .bg-xl-img-top-left {
+        background-position: top left;
+    }
+
+    .bg-xl-img-top-center {
+        background-position: top center;
+    }
+
+    .bg-xl-img-top-right {
+        background-position: top right;
+    }
+
+    .bg-xl-img-center-left {
+        background-position: center left;
+    }
+
+    .bg-xl-img-center-center {
+        background-position: center center;
+    }
+
+    .bg-xl-img-center-right {
+        background-position: center right;
+    }
+
+    .bg-xl-img-bottom-left {
+        background-position: bottom left;
+    }
+
+    .bg-xl-img-bottom-center {
+        background-position: bottom center;
+    }
+
+    .bg-xl-img-bottom-right {
+        background-position: bottom right;
+    }
+
+    .bg-xl-img-repeat {
+        background-repeat: repeat;
+    }
+
+    .bg-xl-img-no-repeat {
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bg-xxl-img-cover {
+        background-size: cover;
+    }
+
+    .bg-xxl-img-contain {
+        background-size: contain;
+    }
+
+    .bg-xxl-img-top-left {
+        background-position: top left;
+    }
+
+    .bg-xxl-img-top-center {
+        background-position: top center;
+    }
+
+    .bg-xxl-img-top-right {
+        background-position: top right;
+    }
+
+    .bg-xxl-img-center-left {
+        background-position: center left;
+    }
+
+    .bg-xxl-img-center-center {
+        background-position: center center;
+    }
+
+    .bg-xxl-img-center-right {
+        background-position: center right;
+    }
+
+    .bg-xxl-img-bottom-left {
+        background-position: bottom left;
+    }
+
+    .bg-xxl-img-bottom-center {
+        background-position: bottom center;
+    }
+
+    .bg-xxl-img-bottom-right {
+        background-position: bottom right;
+    }
+
+    .bg-xxl-img-repeat {
+        background-repeat: repeat;
+    }
+
+    .bg-xxl-img-no-repeat {
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

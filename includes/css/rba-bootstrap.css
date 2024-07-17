@@ -1,0 +1,154 @@
+/* import the colours css file */
+@import url("bs-colours-custom.css");
+
+/* import the fonts custom css file */
+@import url("bs-fonts-custom.css");
+
+/* import the heights custom filr */
+@import url("bs-heights-custom.css");
+
+/* import the bs bg img */
+@import url("bs-bg-img.css");
+
+/* Nav Bar */
+.nav-link {
+    font-size: 0.87rem;
+    letter-spacing: 0.07rem;
+}
+
+/* Hover, underline draw animation */
+
+.draw-line {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.draw-line::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.draw-line.royalblue::before {
+    background-color: #004283;
+}
+
+.draw-line.bluegrey::before {
+    background-color: #818db1;
+}
+
+.draw-line.ctagreen::before {
+    background-color: #c9c400;
+}
+
+.draw-line.white::before {
+    background-color: #ffffff;
+}
+
+
+.draw-line:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+.bg-darken-9 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-darken-8 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-darken-7 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-darken-6 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-darken-5 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-darken-2 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-darken-1 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    letter-spacing: 0.1rem;
+}
+
+.fs-1 {
+    letter-spacing: 0.1rem;
+}
+
+.fs-2 {
+    letter-spacing: 0.05rem;
+}   
+
+.fs-3 {
+    letter-spacing: 0.1rem;
+}   
+
+.fs-4 {
+    letter-spacing: 0.09rem;
+}
+
+.fs-5 {
+    letter-spacing: 0.05rem;
+}
+
+.fs-6{
+    font-size: 1.1rem !important;
+    letter-spacing: 0.06rem;
+}
+
+
+.x-small {
+    font-size: 0.8rem;
+}
+
+.xx-small {
+    font-size: 0.67rem;
+}
+
+
+
+.pb-100 {
+    padding-bottom: 100%;
+}
+
+
+
+.hover-swap-cover .cover-image, .hover-swap-cover .hover-image{
+    transition: all 0.3s ease-in-out;
+}
+
+
+.hover-swap-cover .hover-image{
+    opacity: 0;
+}
+
+.hover-swap-cover:hover .hover-image{
+    opacity: 1;
+}
+
+.hover-swap-cover:hover *{
+    color: #004283 !important;
+}
